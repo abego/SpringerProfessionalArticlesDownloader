@@ -17,7 +17,7 @@ You will find the downloaded articles as PDF files in your "Downloads" folder, w
 
 Make sure to add `.pdf` and `.jpg` to the `Whitelisted File Extensions` list on Tampermonkey's `Settings` page. 
 
-_(When a browser does not support the `Whitelisted File Extensions` list the download will not work. E.g. when checked in May 2017 Chrome was upporting this feature but Safari did not.)_
+_(If you don't find a `Whitelisted File Extensions` list on Tampermonkey's `Settings` page UserScripts cannot download files in your browser. E.g. when checked in May 2017 Chrome was supporting downloads but Safari did not.)_
 
 ## Download non-OPEN ACCESS articles
 
