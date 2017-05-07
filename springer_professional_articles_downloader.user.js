@@ -2,8 +2,10 @@
 // @name         Springer Professional Articles Downloader
 // @namespace    abego.org
 // @version      1.0
-// @description  Adds a button to download all articles of a journal (e.g. 'Informatik-Spektrum') when visiting a Springer Professional journal page. To download non-open access articles the user must be logged in. Make sure to add '.pdf' and '.jpg' to the 'Whitelisted File Extensions' list (in 'Settings').
+// @description  Adds a button to download all articles of a Springer Professional journal page (e.g. 'Informatik-Spektrum'). To download non-open access articles the user must be logged in. Make sure to add '.pdf' and '.jpg' to the 'Whitelisted File Extensions' list (in 'Settings').
 // @author       Udo Borkowski
+// @copyright    2017, abego Software GmbH, Germany (http://www.abego.org)
+// @license      BSD 3-clause license
 // @include      https://www.springerprofessional.de/*
 // @grant        GM_info
 // @grant        GM_notification
