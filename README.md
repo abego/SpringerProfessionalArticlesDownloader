@@ -1,4 +1,4 @@
-# Springer Professional Articles Downloader (TinderMonkey UserScript)
+# Springer Professional Articles Downloader (Tampermonkey UserScript)
 
 
 Adds a button to Springer Professional journal web pages to download articles (e.g. 'Informatik-Spektrum').
@@ -13,9 +13,9 @@ You will find the downloaded articles as PDF files in your "Downloads" folder, w
 
 ## Setup
 
-[Install](https://tampermonkey.net/faq.php?ext=dhdg#Q102) the TamperMonkey UserScript `springer_professional_articles_downloader.user.js`.
+[Install](https://tampermonkey.net/faq.php?ext=dhdg#Q102) the Tampermonkey UserScript `springer_professional_articles_downloader.user.js`.
 
-Make sure to add `.pdf` and `.jpg` to the `Whitelisted File Extensions` list on the `Settings` page. 
+Make sure to add `.pdf` and `.jpg` to the `Whitelisted File Extensions` list on Tampermonkey's `Settings` page. 
 
 _(When a browser does not support the `Whitelisted File Extensions` list the download will not work. E.g. when checked in May 2017 Chrome was upporting this feature but Safari did not.)_
 
