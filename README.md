@@ -1,4 +1,4 @@
-# Springer Professional Articles Downloader (GreaseMonkey UserScript)
+# Springer Professional Articles Downloader (TinderMonkey UserScript)
 
 
 Adds a button to Springer Professional journal web pages to download articles (e.g. 'Informatik-Spektrum').
@@ -13,13 +13,11 @@ You will find the downloaded articles as PDF files in your "Downloads" folder, w
 
 ## Setup
 
-[Install](https://wiki.greasespot.net/Greasemonkey_Manual:Installing_Scripts) the GreaseMonkey UserScript `springer_professional_articles_downloader.user.js`.
+[Install](https://tampermonkey.net/faq.php?ext=dhdg#Q102) the TamperMonkey UserScript `springer_professional_articles_downloader.user.js`.
 
 Make sure to add `.pdf` and `.jpg` to the `Whitelisted File Extensions` list on the `Settings` page. 
 
-(If a browser does not support the `Whitelisted File Extensions` list the download will not work).
-
-Alternatively you may also use [TamperMonkey](http://tampermonkey.net) instead of GreaseMonkey.
+_(When a browser does not support the `Whitelisted File Extensions` list the download will not work. E.g. when checked in May 2017 Chrome was upporting this feature but Safari did not.)_
 
 ## Download non-OPEN ACCESS articles
 
