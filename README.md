@@ -5,7 +5,7 @@ Adds a button to Springer Professional journal web pages to download articles (e
 
 ## Details
 
-When you visit a Springer Professional journal page with accessible articles a "Download _N_ articles" button appears at the top left of the page. 
+When you visit a [Springer Professional](https://www.springerprofessional.de/library/journals) journal page with accessible articles a "Download _N_ articles" button appears at the top left of the page. 
 
 Click the "Download" button to download all accessible articles from that page. 
 
