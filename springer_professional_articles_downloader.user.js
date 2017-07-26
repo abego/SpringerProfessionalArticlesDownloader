@@ -47,6 +47,10 @@ POSSIBILITY OF SUCH DAMAGE.
 (function() {
     'use strict';
 
+    var selector_Ausgabe_nn_yyyy = "article > header > h2";
+    var selector_JournalTitle = "h1";
+    var selector_CoverImg = "article > header > img";
+
     function journalIssuePrefix(journal) {
         return journal.title + "-" + journal.issueYear + "-" + journal.issueNumber;
     }
@@ -113,13 +117,13 @@ POSSIBILITY OF SUCH DAMAGE.
     }
 
     function extractJournal() {
-        var numberAndYear = $("div.dds-header__right-column span:first").text().split(/\s+/)[1].split("/");
+        var numberAndYear = $(selector_Ausgabe_nn_yyyy).text().split(/\s+/)[1].split("/");
         return {
-            title: $("header.detail-content__header a:first").attr("title"),
+            title: $(selector_JournalTitle).text(),
             issueYear: numberAndYear[1],
             issueNumber: numberAndYear[0],
             cover: {
-                url: $("div.cover-wrapper img").attr("src")
+                url: $(selector_CoverImg).attr("src")
             }
         };
     }
