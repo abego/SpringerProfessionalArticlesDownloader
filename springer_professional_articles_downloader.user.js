@@ -71,7 +71,7 @@ POSSIBILITY OF SUCH DAMAGE.
         var details = {
             url: journal.cover.url,
             name: name,
-            saveAs: true,
+            saveAs: false,
             onload: function() {
                 onDownloaded();
             },
@@ -91,7 +91,7 @@ POSSIBILITY OF SUCH DAMAGE.
         var details = {
             url: article.href,
             name: name,
-            saveAs: true,
+            saveAs: false,
             onload: function() {
                 onDownloaded();
             },
