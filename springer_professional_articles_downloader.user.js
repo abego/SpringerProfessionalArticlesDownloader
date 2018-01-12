@@ -56,13 +56,13 @@ POSSIBILITY OF SUCH DAMAGE.
     }
 
     function articleFilename(article) {
-        return journalIssuePrefix(article.journal) +
+        return asFilename(journalIssuePrefix(article.journal) +
             "-art-" + ("" + article.number).padStart(2, "0") +
-            " " + article.title + ". " + article.authors + ".pdf";
+            " " + article.title + ". " + article.authors + ".pdf");
     }
 
     function coverFilename(journal) {
-        return journalIssuePrefix(journal) + "-cover.jpg";
+        return asFilename(journalIssuePrefix(journal) + "-cover.jpg");
     }
 
     function downloadCover(journal) {
@@ -149,12 +149,19 @@ POSSIBILITY OF SUCH DAMAGE.
         }
     }
 
+    function asFilename(s) {
+        // replace characters that must not be part of a filename by a space
+        return s.replace(/[:\?\/\\]/g," ");
+    }
+
     function quantity(n, itemLabel, itemsLabel) {
         if (!itemsLabel) {
             itemsLabel = itemLabel + "s";
         }
         return n + " " + (n == 1 ? itemLabel : itemsLabel);
     }
+
+    // ----------------------------------------------------------------
 
     var journal = extractJournal();
     var articles = extractArticles(journal).filter(function(i, e) {
