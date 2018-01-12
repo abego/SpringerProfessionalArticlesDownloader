@@ -1,7 +1,7 @@
 # Springer Professional Articles Downloader (Tampermonkey UserScript)
 
 
-Adds a button to Springer Professional journal web pages to download articles (e.g. 'Informatik-Spektrum').
+Download articles from Springer Professional journal web pages (e.g. 'Informatik-Spektrum')
 
 ## Details
 
