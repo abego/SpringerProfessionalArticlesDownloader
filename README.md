@@ -1,3 +1,5 @@
+# ATTENTION: TThe Project is abandoned and is no longer maintained.
+
 # Springer Professional Articles Downloader (Tampermonkey UserScript)
 
 
